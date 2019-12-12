@@ -1,0 +1,21 @@
+{
+  "name": "mlinks",
+  "version": "1.0.0",
+  "description": "Create multiple links to the same target",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "repository": "https://github.com/EliverLara/mlinks.git",
+  "author": "EliverLara",
+  "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+    "mlinks": "cli.js"
+  },
+  "dependencies": {
+    "execa": "^3.4.0",
+    "yargs": "^13.2.2"
+  }
+}
